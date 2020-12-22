@@ -1,0 +1,107 @@
+.acf-field-relationship:hover .acf-actions.-hover, .acf-field-post-object:hover .acf-actions.-hover{display:block!important} 
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.edit_password input[type=password], .edit_password .cancel-edit, .edit_password .pass-strength-result, .edit_password.password_confirm{ 
+    display: none;
+ }
+
+.editing_password .cancel-edit{
+	color: #0071a1;
+    border-color: #0071a1;
+    background: #f3f5f6;
+	vertical-align: top;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+ .pass-strength-result.weak {
+	display: none;
+}
+ .pass-strength-result {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	color: #23282d;
+	margin: -1px 1px 5px;
+	padding: 3px 5px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	opacity: 0;
+}
+
+.pass-strength-result.short {
+	background-color: #f1adad;
+	border-color: #e35b5b;
+	opacity: 1;
+}
+
+.pass-strength-result.bad {
+	background-color: #fbc5a9;
+	border-color: #f78b53;
+	opacity: 1;
+}
+
+.pass-strength-result.good {
+	background-color: #ffe399;
+	border-color: #ffc733;
+	opacity: 1;
+}
+
+.pass-strength-result.strong {
+	background-color: #c1e1b9;
+	border-color: #83c373;
+	opacity: 1;
+}
+
+#pass1.short, #pass1-text.short {
+	border-color: #e35b5b;
+}
+
+#pass1.bad, #pass1-text.bad {
+	border-color: #f78b53;
+}
+
+#pass1.good, #pass1-text.good {
+	border-color: #ffc733;
+}
+
+#pass1.strong, #pass1-text.strong {
+	border-color: #83c373;
+}
+.acf-relationship .selection li {
+	position: relative;
+}
+.acf-relationship .selection .choices .acf-icon {
+    position: absolute;
+    top: 4px;
+	right: 7px;
+	display: none;
+	opacity: 1;
+}
+
+.acf-relationship .selection .choices li:hover span.acf-rel-item.disabled {
+	opacity: 1;
+	color: rgb(208,208,208,0.75);
+}
+.acf-relationship .selection .choices li span.acf-rel-item:hover > .acf-icon {
+	display: inline-block;
+}
+
+.acf-relationship .selection .values .acf-icon.edit-post{
+	right: 30px;
+}
+.acf-relationship .selection .acf-icon.shown{
+	display: inline-block !important;
+}
+
+div.loading{
+	text-align: center
+}
+
+.modal-inner span.acf-icon{
+	border:none;
+}

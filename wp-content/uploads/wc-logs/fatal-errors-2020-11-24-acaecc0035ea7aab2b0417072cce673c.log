@@ -1,0 +1,10 @@
+2020-11-24T15:25:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\oudhiya\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\oudhiya\wp-content\plugins\elementor\includes\template-library\sources\local.php:1086
+Stack trace:
+#0 C:\xampp\htdocs\oudhiya\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(649, Object(stdClass))
+#1 C:\xampp\htdocs\oudhiya\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\oudhiya\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\oudhiya\wp-includes\post.php(4260): do_action('save_post', 649, Object(stdClass), true)
+#4 C:\xampp\htdocs\oudhiya\wp-includes\post.php(4354): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\oudhiya\wp-admin\includes\post.php(1867): wp_update_post(Array)
+#6 C:\xampp\htdocs\oudhiya\wp-content\plugins\elementor\core\base\do dans C:\xampp\htdocs\oudhiya\wp-content\plugins\elementor\includes\template-library\sources\local.php à la ligne 1086
+
